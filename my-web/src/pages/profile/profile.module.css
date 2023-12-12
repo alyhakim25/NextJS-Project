@@ -1,0 +1,74 @@
+.header_text{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.body_text{
+    font-size: 16px;
+    padding-left: 10px;
+}
+.name_text{
+    font-size: 22px;
+}
+.skill{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    width: 100%;
+    padding-left: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.skill_Image{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    align-items: center;
+    justify-content: right;
+    margin-left: 10px;
+}
+.right_pos{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    padding-left: 90px;
+}
+.image{
+    width: 100%; /* Make the image fill the circular container */
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+.image_container{
+    width: 150px; /* Set the desired width */
+  height: 150px; /* Set the desired height */
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden;
+}
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    padding-left: 15px;
+}
+.sosmed_text{
+    padding-left: 15px;
+}

@@ -1,0 +1,64 @@
+.card{
+    background-color: rgba(255, 255, 255, 0.8); /* Use rgba for opacity */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+    max-width: 95%; /* Adjust the width as needed */
+    margin: 30px auto; /* Center the card on the page */
+    padding: 16px;
+    display:grid;
+    align-items:center;
+    width: 95%;
+}
+.text_intro{
+    text-align: justify;
+    font-size: large;
+}
+.text_detail{
+    text-align: justify;
+    font-size: large;
+}
+.column{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /*align-items: center;*/
+}
+.image{
+    max-width: 250px;
+    margin-left: 3rem;
+    max-height: 300px;
+    /*margin: auto 3rem auto;*/
+}
+.ch{
+    display: none;
+}
+.ch:checked ~ .content{
+    display: block;
+}
+.ch:checked ~ label{
+    display: none;
+}
+.content{
+    display: none;
+}
+.title_text{
+    font-size: larger;
+    font-weight: bold;
+}
+.label{
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    background-color:chartreuse;
+    padding: 3px 13px;
+    border-radius: 3px;
+    margin-top: 12px;
+}
+
+@media(max-width: 858px){
+    .column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*align-items: center;*/
+    }
+}

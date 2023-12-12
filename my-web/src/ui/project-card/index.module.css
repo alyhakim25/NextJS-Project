@@ -1,0 +1,54 @@
+.card{ 
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+}
+.textcontainer{
+    padding-top: 30px;
+}
+.text{
+    text-align: justify;
+}
+
+.listContainer {
+    height: auto;
+    width: 100%;
+    overflow: auto; /* Enable scrolling for overflow content */
+     /* Optional border for visual clarity */
+    
+}
+  
+  .list {
+    display: flex;
+    list-style: none;
+    margin:auto
+  }
+.image{
+    width: 350px;
+    padding: 30px;
+}
+.image_container{
+    padding: 30px;
+    overflow: auto;
+    
+}
+
+.headertext{
+    font-weight: 700;
+}
+
+.empty{
+    width: 100vh;
+    height: 100vh;
+}
